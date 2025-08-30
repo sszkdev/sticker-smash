@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# StickerSmash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+これは[Expo公式チュートリアル](https://docs.expo.dev/tutorial/introduction/)のStickerSmashアプリです。
 
-## Get started
+## 概要
 
-1. Install dependencies
+StickerSmashは、ユーザーが写真を選択してステッカーを追加できるモバイルアプリケーションです。このプロジェクトはExpoとReact Nativeを使用した開発の基本を学ぶためのチュートリアルプロジェクトです。
 
-   ```bash
-   npm install
-   ```
+## 機能
 
-2. Start the app
+- 写真の選択と表示
+- ステッカーの追加と配置
+- 完成した画像の保存と共有
 
-   ```bash
-   npx expo start
-   ```
+## 技術スタック
 
-In the output, you'll find options to open the app in a
+- Expo
+- React Native
+- TypeScript
+- Expo Router
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 開始方法
 
 ```bash
-npm run reset-project
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npx expo start
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
